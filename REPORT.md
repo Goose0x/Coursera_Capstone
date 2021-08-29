@@ -220,21 +220,33 @@ When exploring what options are available near the city of Miami, Fl data was co
  Now lets look into the dataframe created from Jupyter notebook, grouping Miami and its neighboring towns.
  
    <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
-  <img alt="folium geodata map of miami-dade county" src ="./Images/MiamiGroupby.PNG" alt="Dataframe of Miami and Local Neighborhoods" width="500"></p>
-  Figure 17: Dataframe of Miami and Local Neighborhoods.
+  <img alt="miami groupby data" src ="./Images/MiamiGroupby.PNG" alt="Dataframe of Miami and Local Neighborhoods" width="500"></p>
+  Figure 18: Dataframe of Miami and Local Neighborhoods.
  </h4>
  
-As we can see here, there are a total of six cities in the proximity set by the geodata in Miami-Dade County.  Each row lists the number of venues reported by FourSquare.
+As we can see here, there are a total of areas in the proximity set by the geodata in Miami-Dade County.  Each row lists the number of venues reported by FourSquare.
 
    <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
-  <img alt="folium geodata map of miami-dade county" src ="./Images/MiamiGroupby.PNG" alt="Dataframe of Miami and Local Neighborhoods" width="500"></p>
-  Figure 17: Dataframe of Miami and Local Neighborhoods.
+  <img alt="most common venues near miami,fl" src ="./Images/MostCommonVenues.PNG" alt="Dataframe of Moat Common Venues in Miami Area" width="500"></p>
+  Figure 19: Dataframe of Most Common Venues in Miami Area.
  </h4>
  
+ Upon review of the data, there were 6 towns/cities in the Miami area, with 2,142 different venues, and 256 unique categories to explore.  Of the five clusters created from the data: <p>
+Cluster 1 contains mostly restaurants and convenience stores.  
+Cluster 2 is has gyms and other outdoor related activities.  
+Cluster 3 has a variety of fitness, outdoor, and city-life activities.  
+Cluster 4 has restaurants and small shops.  
+Cluster 5 has hotels, cafe's and beach realestate to explore.
+</p>
 
+<b>4.0 Conclusions </b><p>
+</p> 
+After exploring each of the different variables associated with California and Florida provided in this report, the following summarize the two locations:
+1. Weather: Both share beautiful warm weather and coastal beaches.  However, if desert, dry, low-humidity is your thing then stay in California.  If not, and you do not mind rain and humidity then Florida will satisfy you.
+2. Business and Expansion: Currently Florida is the clear winner with lower population, a STEM/TECH focused business initiative, and competitive wages for the Computer Mathematical Occupations field.  Pair that with lower taxes and no income tax means your dollar will go further, and business growth can remain in Florida which is good for their economy.
+3. Crime: Both Santa Clara, CA and Miami, FL are not safe for families or a quiet life.  However, Santa Clara does not have any reported deaths as of 2021 thus far.  It is recommended to live in a smaller town/area on the outskirts of both cities and make a commute to work.
 
+<b>5.0 Future Directions </b><p>
+</p>
+There will be a huge shift of continued movement out of California in the next few years.  Continued government overreach, high taxes, and rising unemoployment in major cities (North Western/North Eastern) will see and influx into the midwest and south east states.  We could possibly end up seeing a major shift in locations of technical institutes and funding, as research and talent moves elsewhere.  Even with remote working conditions due to COVID-19 will subside, as things eventually reopen and people try to live their lives normally.  The prospects of a lower-cost of living, relaxed atmostphere, and less government restrictions will setup certain states for expansion in the STEM/TECH field and the states who don't adapt will fall behind.  Additional data that would be beneificial to see with the analysis would be to supplement the transportation and census data for compare and contrast over the next 5 to 10 years.
 
-MiamiGroupby.PNG
-MostCommonVenues.PNG
-
-ConclusionData.PNG
