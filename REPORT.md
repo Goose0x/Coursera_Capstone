@@ -1,7 +1,6 @@
 <h1 align="center" style="margin-top: 1em; margin-bottom: 3em;">
 </h1>
-<h2 align="center" style= "margin-top: 1em; margin-bottom: 3em;"> Project Title: "The New Silicon Valley: </p> 
-Why Miami is the New Hotspot for Tech Innovation." </h2> </p>
+<h2 align="center" style= "margin-top: 1em; margin-bottom: 3em;">The New Silicon Valley: Why Miami is the Next Hotspot for Tech Innovation </h2> </p>
  <p> <h4 align="center"> By: Goose0x </p> Date: August 29, 2021 </h4> </p>
 
 
