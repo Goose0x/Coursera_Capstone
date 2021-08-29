@@ -239,14 +239,14 @@ Cluster 4 has restaurants and small shops.
 Cluster 5 has hotels, cafe's and beach realestate to explore.
 </p>
 
-<b>4.0 Conclusions </b><p>
-</p> 
+<b>4.0 Conclusions </b>
+
 After exploring each of the different variables associated with California and Florida provided in this report, the following summarize the two locations:
 1. Weather: Both share beautiful warm weather and coastal beaches.  However, if desert, dry, low-humidity is your thing then stay in California.  If not, and you do not mind rain and humidity then Florida will satisfy you.
-2. Business and Expansion: Currently Florida is the clear winner with lower population, a STEM/TECH focused business initiative, and competitive wages for the Computer Mathematical Occupations field.  Pair that with lower taxes and no income tax means your dollar will go further, and business growth can remain in Florida which is good for their economy.
-3. Crime: Both Santa Clara, CA and Miami, FL are not safe for families or a quiet life.  However, Santa Clara does not have any reported deaths as of 2021 thus far.  It is recommended to live in a smaller town/area on the outskirts of both cities and make a commute to work.
+2. Business and Expansion: Currently Florida is the clear winner with lower population, a STEM focused business initiative, and competitive wages for the Computer Mathematical Occupations field.  Pair that with lower taxes and no income tax means your dollar will go further, and business growth can remain in Florida which is good for their economy.
+3. Crime: Both Santa Clara, CA and Miami, FL are not safe for families or a quiet life.  However, Santa Clara is marginally safer by 3%.  It is recommended to live in a smaller town/area on the outskirts of both cities and make a commute to work.
 
-<b>5.0 Future Directions </b><p>
-</p>
-There will be a huge shift of continued movement out of California in the next few years.  Continued government overreach, high taxes, and rising unemoployment in major cities (North Western/North Eastern) will see and influx into the midwest and south east states.  We could possibly end up seeing a major shift in locations of technical institutes and funding, as research and talent moves elsewhere.  Even with remote working conditions due to COVID-19 will subside, as things eventually reopen and people try to live their lives normally.  The prospects of a lower-cost of living, relaxed atmostphere, and less government restrictions will setup certain states for expansion in the STEM/TECH field and the states who don't adapt will fall behind.  Additional data that would be beneificial to see with the analysis would be to supplement the transportation and census data for compare and contrast over the next 5 to 10 years.
+<b>5.0 Future Directions </b>
+
+There will be a huge shift of continued movement out of California in the next few years.  Continued government overreach, high taxes, and rising unemoployment in major cities (North Western/North Eastern) will see and influx into the midwest and south east states.  We could possibly end up seeing a major shift in locations of technical institutes and funding, as research and talent moves elsewhere.  Even with remote working conditions due to COVID-19 will subside, as things eventually reopen and people try to live their lives normally.  The prospects of a lower-cost of living, relaxed atmostphere, and less government restrictions will setup certain states for expansion in the STEM fields and the states who don't adapt will fall behind.  Additional data that would be beneificial to see with the analysis would be to supplement the transportation and census data for compare and contrast over the next 5 to 10 years.
 
