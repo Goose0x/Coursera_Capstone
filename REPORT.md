@@ -15,9 +15,7 @@ For the Capstone Project I will be investigating why tech businesses are choosin
 
 <b>1.2 Problem </b><p>
  
-This poses a unique situation for California, adapt or lose business.  The data collected will be the average cost of living for each location, income tax and other tax for each area. <p>
-Average cost of labor, and business related incentives that make comparisons of the two states.  The report will also discuss the crime rate statistics, environmental factors and attractions <p> 
-to include local restaurants, housing areas, etc using FourSquare API data.<p>
+This poses a unique situation for California, adapt or lose business.  The data collected will be the average cost of living for each location, income tax and other tax for each area. Average cost of labor, and business related incentives that make comparisons of the two states.  The report will also discuss the crime rate statistics, environmental factors and attractions to include local restaurants, housing areas, etc using FourSquare API data.<p>
   
 <b> 1.3 Interest </b><p>
 This information, compiled into a report would be beneficial for businesses looking to expand or move to alternative locations in order to maintain business in the United States and avoid high taxes, overcrowded cities, and look for suitable places their business and families can grow.  The report features a breakdown of the categories with supported documentation amd statistical analysis through tables.<p>
@@ -27,25 +25,23 @@ This information, compiled into a report would be beneficial for businesses look
 <b>2.1 Data Sources </b><p>
 
 Data for comparison was collected from a variety of sources.  At some locations it was able to be utilized as is.  For others, it would require further analysis and cleansing. <p>
-The zipcodes geodata for [California GeoData](<https://www.geonames.org/postalcode-search.html?q=california&country=US>) and for [Florida GeoData](<https://www.geonames.org/postalcode-search.html?q=florida&country=US>). <p>
+The zipcodes geodata for [California](<https://www.geonames.org/postalcode-search.html?q=california&country=US>) and for [Florida](<https://www.geonames.org/postalcode-search.html?q=florida&country=US>). <p>
 Cost of living data was collected here [Cost of Living Comparison](<https://www.bestplaces.net/cost-of-living/santa-clara-ca/miami-fl/250000>). <p>
-Income Taxes and Other Taxes for [California Income Tax](<https://smartasset.com/taxes/california-tax-calculator>)and for [Florida Income Tax](<https://smartasset.com/taxes/florida-tax-calculator>). <p>
+Income Taxes and Other Taxes for [California](<https://smartasset.com/taxes/california-tax-calculator>) and for [Florida](<https://smartasset.com/taxes/florida-tax-calculator>). <p>
 Occupational and Labor Statistics were downloaded from here [California Labor](<https://www.bls.gov/oes/current/oes_ca.htm#15-0000>) and for [Florida Labor](<https://www.bls.gov/oes/current/oes_fl.htm#15-0000>). <p> 
 Business Incentives for comparing the states were from here [California Business](<http://apps.csg.org/BusinessIncentives/StateProfile.aspx?id=5>) and for [Florida Business](<http://apps.csg.org/BusinessIncentives/StateProfile.aspx?id=9>). <p>
-Crime statistics for each state were collected from here [Santa Clara County, CA](<https://www.santaclaraca.gov/our-city/departments-g-z/police-department/crime>) and from [Miami-Dade County, FL](<https://www.miamidade.gov/global/police/crime-statistics.page>). <p>
+Crime statistics for each state were collected from here [Santa Clara County, CA](<https://www.santaclaraca.gov/our-city/departments-g-z/police-department/crime>) and from [Miami-Dade County, FL](<https://www.miamidade.gov/global/police/crime-statistics.page>).  As well as data charts sourced from [NeighborhoodScout](https://www.neighborhoodscout.com).<p>
   
  <b>2.2 Data Cleaning </b><p>
   
  <b>2.2.1 Geolocation Data</b><p>
- The geolocation data was webscraped using beautiful soup and was exported as a txt file.  The file was then compiled and cleaned utilizing IBM Watson Studios.
- Compiled into this [CSV](<https://github.com/Goose0x/Coursera_Capstone/blob/master/CSV/zip_codes_cal_fl.csv>).<p>
- Initial issues with the data collection posed problems, as locating sufficient data, cleaning it, and getting the values to correctly display posed a problem when utilizing GeoLocator with Python.  Once the data had been collected, and properly formatted into a text file.<p> 
+ The geolocation data was webscraped using beautiful soup and was exported as a txt file.  The file was then compiled and cleaned  utilizing IBM Watson Studios. Compiled into this [CSV](<https://github.com/Goose0x/Coursera_Capstone/blob/master/CSV/zip_codes_cal_fl.csv>).<p>
+Initial issues with the data collection posed problems, as locating sufficient data, cleaning it, and getting the values to correctly display posed a problem when utilizing GeoLocator with Python.  Once the data had been collected, and properly formatted into a text file.<p> 
  The tools provided within IBM Watson Studios made the task of cleaning, organizing, removing, and sorting easy.  
  Once the data was imported, a flow was created to <i> Filter </i> only "Santa Clara" + "Miami-Dade". <p>
  The data then was verified and "Na" values were present in the data set under "Latitude" and "Longitude".  This was cleaned with a <i> Remove </i> operation.
  The data was verified again for any "Na" values using .isnull. <p>
- The dataset was then imported into the Jupyter notebook as part of the Data section, which lists the zipcodes and geo data for Santa Clara County, CA and Miami-Dade County, FL. The dataset was further broken into two dataframes, Santa Clara and Miami. <p>
- This dataset was used for FourSquare's API to review local data in the Miami, FL vicinity. <p>
+ The dataset was then imported into the Jupyter notebook as part of the Data section, which lists the zipcodes and geo data for Santa Clara County, CA and Miami-Dade County, FL. The dataset was further broken into two dataframes, Santa Clara and Miami. This dataset was used for FourSquare's API to review local data in the Miami, FL vicinity. <p>
  
   <b>2.2.2 Crime Statistics Data Data</b><p>
  Crime statistics were collected from the their respective sources and cleaned manually before being processed in IBM Watson Studios data refining process.  The data for Santa Clara was manually edited in Excel to remove unneccessary data points, and refiltered to remove the timestamp as it was proving difficult to clean the data for presentation, and no utilitiy seemed to work while utilizing IBM Watson Studios data refining.  Once the dataset was prepared, it was reimported into IBM Watson Studios for processing.  There were 144,992 total entries.  Data was filtered using "THEFT" and "ASSAULT".  The Miami-Dade County data set was first processed in Excel, to remove unnecessary data, and move selected data "Dates" and "Miami-Dade County" to a new excel document, consisting of years 2015-2019.  Next, it was imported into IBM Watson Studios for processing.  The data sets are located [here](<https://github.com/Goose0x/Coursera_Capstone/tree/master/CSV>).<p>
@@ -146,3 +142,58 @@ Over all each state offers their own benefits of living there, with tradeoffs.  
 <p>
  In Figure 9, the states with the highest potential for employment in the fields of Computer Mathematical Occupations coincide with what was originally hypothesized, and correlates with the recent moves of many high-tech companies such as Tesla.  California ranks at number one, followed by Texas in second.  Newyork takes third, and Florida is ranked as number four.  Virgina, makes up the fifth spot.  Note the difference in pay, as Florida although number four, has the lowest average annual pay.  It is important to remmember the lower cost of living that factors into that.  
 </p>
+
+<b>3.4 Business Incentives </b>
+
+Data collected from [apps.csg.org](http://apps.csg.org/BusinessIncentives/Default.aspx).  A state incentives database.  Provided information regarding statistics in population, taxes, and business related initiatives to foster small and larger scale enterprises.  Two were chosen (one from each state) that were considered viable to the data.  Based on initial analysis, and comparing the results collected, when comparing populations of California at 37,253,956 to Florida at 18,801,310 - there is a lot of room for growth in Florida.  Especially when seeing the types of initiatives and attitude each is expressing for growth in technology.
+
+ <b>Small Business Loan Gurantee Program</b>
+
+The [California Small Business Loan Guarantee Program (SBLGP)](http://apps.csg.org/BusinessIncentives/StateProfile.aspx?id=5) is administered by the Business, Transportation and Housing Agency in partnership with the Governor's Office of Economic Development (GoED) and works to help businesses create and retain jobs, while at the same time encouraging investment into low- to moderate-income communities. The SBLGP enables small businesses to not only obtain a loan it could not otherwise obtain, but to establish a favorable credit history with a lender. With that, the business may obtain further loans on its own, without the assistance of the program. Accessed on August 29, 2021.
+
+ <b>New Florida Initiative</b>
+
+Consider the powerful impact of 11 highly productive state universities working together to transform Florida and its economy. This is the [New Florida Initiative](http://apps.csg.org/BusinessIncentives/StateProfile.aspx?id=9). Launched in 2010 in partnership with the Florida’s Governor and Legislature, this multi-year endeavor will ensure that Florida’s knowledge and innovation economy is sustained by high-technology, high-wage jobs in the fields of science, technology, engineering and mathematics (or “STEM”). A true and holistic transformation will also involve the areas of medicine and health care, finance, insurance, professional services, education and the arts, which are the foundation of a modern society. The New Florida Initiative is the State University System’s collaborative effort — alongside business and government — to deliver the economy, talent and innovations that Florida must have to be globally competitive. Accessed on August 29, 2021.
+
+<b>3.5 Crime Statistics</b>
+
+Data provided for the crime statistics report was gathered from multiple sources and was compiled together utilizing Excel, Python, and IBM Watson Studios.  Overall, the varying datasets when reviewed required further cleaning, and did not match up correctly for analysis.  Therefor, it was decided to add supporting charts for analysis from [NeighborhoodScout](https://www.neighborhoodscout.com).
+
+  <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/SantaClara_Crime3.png" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 10: Historical Crime Report for Santa Clara, CA.  Key="THEFT". [IBM Watson Studios].
+ </h4>
+ 
+   <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/SantaClara_Crime4.png" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 11: Historical Crime Report for Santa Clara, CA.  Key="ASSUALT". [IBM Watson Studios].
+ </h4>
+
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/CrimeReport_SantaClara.PNG" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 12: Santa Clara Crime Report: 2021. [neighborhoodscout.com].
+ </h4>
+ 
+ <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/CrimeReport_SantaClara2.PNG" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 13: Santa Clara Violent Crime Report Compared to US Average: 2021. [neighborhoodscout.com].
+ </h4>
+ 
+  <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/CrimeReport_Miami.PNG" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 14: Miami Crime Report: 2021. [neighborhoodscout.com].
+ </h4>
+ 
+  <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/CrimeReport_Miami2.PNG" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 15: Miami Violent Crime Report Compared to US Average: 2021. [neighborhoodscout.com].
+ </h4>
+ 
+When analyzing the data provided from the crime reports, no major distinctions can be inferred from each state's crime statistics.  They are both quite similar, with Santa Clara scoring a 9% compared to Miami scoring a 6%.  That is three percent difference in the amount of crime present in both areas.  However, when we look into the details and compare the whatg types of crime are being committed that is where things are vastly different.
+
+Santa Clara has a population of 130,000 and makes up a higher, upscale area with most crimes being related to theft in Figure 10, and assualt and battery in Figure 11.  Comparing this data with Figures 12 and 13, we can see that there are zero deaths but 36 cases of rape, 76 robberies, and 110 cases of assualt according to annual statistics.  According to NeighborhoodScout "With a crime rate of 38 per one thousand residents, Santa Clara has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 26. Within California, more than 91% of the communities have a lower crime rate than Santa Clara." 
+
+Mimai has a population of 467,963 and thus far has had 2,884 violent crimes and 17,654 property crimes per annual statistics.  As of 2021, there has been 155 cases of rape, 773 cases of robbery, and 1,913 cases of assualt.  According to NeighborhoodScout, "With a crime rate of 44 per one thousand residents, Miami has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 23. Within Florida, more than 90% of the communities have a lower crime rate than Miami."
+
+Conclusion from the crime data gathered, is that it would be best to live outside these metropolitan areas (cities) and live in a smaller, gated coommunity if possible.
+
