@@ -52,7 +52,7 @@ Crime statistics for each state were collected from here [Santa Clara County, CA
  To support the data from the crime statistics, data was also accessed from [Neighborhood Scout](<https://www.neighborhoodscout.com/>) for each city.
  
   <b>2.2.3 Labor Statistics Data</b>
- The data chosen for the labor statisctics data proved to be not valid for the report and was discarded after multiple attempts to filter and clean it.  Instead utilizing the website at [BLS.gov](<https://www.bls.gov/>).  A search was conducted for "San-Jose, CA" and "Miami, FL" utilizing the criteria "Computer and Mathematical Occupations".<p>
+ When approaching the problem initially, data was gathered for each state with the attempt to compare business costs and wage differences in the Computer Mathematics sector.  It was during the review and cleaning that the data chosen proved to be not valid for the report and was discarded after multiple attempts to filter and clean it.  Instead utilizing the website at [BLS.gov](<https://www.bls.gov/>).  A search was conducted for "San-Jose, CA" and "Miami, FL" utilizing the criteria "Computer and Mathematical Occupations".<p>
  Utilizing these parameters data was collected and tables created to display a comparison of the data.  The files can be located [here](<https://github.com/Goose0x/Coursera_Capstone/tree/master/Images>). <p>
  
  <b>3.0 Exploratory Data Analysis </b><p>
@@ -64,7 +64,7 @@ Crime statistics for each state were collected from here [Santa Clara County, CA
 </h4>
 <p></p>
 <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
- <p> Figure 1: Cost of Living Comparision for Santa Clara, CA and Miami, FL.
+ <p> Figure 1: Cost of Living Comparision for Santa Clara, CA and Miami, FL. [BestPlaces.net].
 </h4>
 <p>  
  Overall we can see that there is a major difference in Housing at 74.5% less which makes up the Homeowner median housing index.  The average home in Santa Clara, CA is $1,292,200   compared to a house in Miami, FL at $329,900.  Thats a difference of over $962,300.  The other categories like Food and Grocery, Utilities, and Transportation are comparable and   are not a focus of this figure.
@@ -74,35 +74,75 @@ Crime statistics for each state were collected from here [Santa Clara County, CA
   Anyone who works hard wants to keep their money, and it is important to factor in what the state you are working in, is taking out from your paycheck.  The next figure compares California and Florida income tax, and associated taxes with property and gas.
  </p>
   
-<h1 align="center" style="margin-top: 1em; margin-bottom: 3em;">
- <img alt="california income tax" src ="./Images/CA_Tax.PNG" alt="Breakdown of Income Tax for California" width="500"></a></p>
-  <img alt="florida income tax" src ="./Images/FL_Tax.PNG" alt="Breakdown of Income Tax for Florida" width="500"></a></p>
-</h4>
-<h1 align="center" style="margin-top: 1em; margin-bottom: 3em;">
-  <img alt="california and florida comparison" src ="./Images/CA_FL_TaxCompare.png" alt="Chart comparing the tax data between CA and FL" width="500"></a></p>
-</h4>
-<p></p>
 <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
- <p> Figure 1: Cost of Living Comparision for Santa Clara, CA and Miami, FL.
+ <img alt="california income tax" src ="./Images/CA_Tax.PNG" alt="Breakdown of Income Tax for California" width="500"></a></p>
+  <p> Figure 2: Tax Breakdown for California.[SmartAsset.com].
+ </p>
 </h4>
-<p> 
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">  
+ <img alt="florida income tax" src ="./Images/FL_Tax.PNG" alt="Breakdown of Income Tax for Florida" width="500"></a></p>
+  <p> Figure 3: Tax Breakdown for Florida.[SmartAsset.com].
+ </p>
+</h4>
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="california and florida comparison" src ="./Images/CA_FL_TaxCompare.png" alt="Chart comparing the tax data between CA and FL" width="500"></a></p>
+  <p> Figure 4: Custom Bar chart with Error Comparison for California and Florida.  The data utilized the top percentages for each state.
+ </p>
+ </h4>
+<p></p>
 
-![California Tax Breakdown](https://github.com/Goose0x/Coursera_Capstone/blob/master/Images/CA_Tax.PNG "California Tax Breakdown").
+Over all each state offers their own benefits of living there, with tradeoffs.  SmartAsset.com describes each best: <p>
+"[California](https://smartasset.com/taxes/california-tax-calculator) has among the highest taxes in the nation.  It's base sales tax rate of 7.25% is higher than that of any other state, and its top marginal income tax rate of 13.3% is the highest state income tax rate in the country.  The Golden State fares slightly better where real estate is concerned, though.  The average homeowner pays just 0.73% of their actual home value in estate taxes each year".  Information accessed on August 29, 2021.
+ 
+"Florida's official nickname is the 'Sunshine State,' but it may as well be 'The Low-Tax State.'  That's because Florida is the only state east of the Mississippi that doesn't collect income taxes of any kind.  The state does charge a slaes tax rate of 6% though, and most counties charge sales taxes of their own.  There are, however, some taxes that are higher in [Florida](https://smartasset.com/taxes/florida-tax-calculator) than elsewhere in the U.S.  Information accessed on August 29, 2021. 
+</p>
+
+<b>3.3 Occupational and Labor Statistics </b>
+
+  The costs of operating a business and paying the employees of said company must drive sales, and innovation to compete in the given sector.  Operating costs, competitive wages, talent, all factor into the equation.  So what makes a state better than the other for computer engineering and technology?  When looking at the United States labor statistics on [BLS.gov](https://www.bls.gov/), useful insights and data had been compiled into useful charts.  Those charts are listed below in the figures for analysis.
+
+ 
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="employment of computer mathematics occupations by state" src ="./Images/BLS_MapCMO_May2020.PNG" alt="Computer Mathematics Occupations by State" width="500"></p>
+  Figure 5: Employment of Computer Mathematics Occupations, by State, May 2020.[BLS.gov].
+ </h4>
+ 
+<p>
+ As diplayed by Figure 5, both California and Florida each have high levels of employment for Computer 
+ and Mathematical Occupations.  With Texas equally weighted according to the figure. 
+</p>
+ 
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="top paying states for computer mathematics occupations" src ="./Images/BLS_TopPaying_StatesCE.PNG" alt="Top Paying States for Computer Mathematics Occupations" width="500"></a></p>
+  <p> Figure 6: Top Paying States for Computer and Mathematical Occupations.[BLS.gov].
+ </p>
+ </h4>
+
+<p>
+ According to Figure 6, the top paying state is Washington state, followed in second by California.  The District of Columbia in third, Virginia in fourth, and Massachusetts in fifth.  Florida is not listed in the top 5 and this is most likely due to the lower cost of living.  As the other states have higher cost of living averages and home prices.
+</p>
+ 
+ <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+ <img alt="annual mean wage" src ="./Images/BLS_AnnualMeanWage.PNG" alt="Annual Mean Wage for Computer Mathematics Occupations" width="500"></a></p>
+  <p> Figure 7: Annual Mean Wage of Computer and Mathematical Occupations, by Area, May 2020. [BLS.gov].
+ </p>
+</h4>
+ 
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">  
+ <img alt="concentration of jobs by state" src ="./Images/BLS_ConcentrationOfJobs_CE.PNG" alt="Concentration of Computer Mathematics Occupations by State" width="500"></a></p>
+  <p> Figure 8: Metropolitan Area with the Hight Concentration of Jobs and Location Quotients in Computer and Mathematical Occupations. [BLS.gov].
+ </p>
+</h4>
+
+<p>
+ Figure 7 and 8 contains details regarding employment and annual wage statistics.  As you probably guessed, Santa Clara, in San Jose, CA which is part of Silicon Valley is the number one.  Followed by Bloomington, IL, and California-Lexington Park, MD.  Austin-Round Rock, TX brings in the last spot at an average annual salary of $93,190.  In Figure 7, it can be noted that parts of Florida (to include the Miami-Dade County area) are in dark blue, indicating higher mean annual pay compared with California.
+</p> 
+  
+<h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  <img alt="highest level of employment by state" src ="./Images/BLS_HLE_ComputerSystems.PNG" alt="Chart comparing the tax data between CA and FL" width="500"></a></p>
+  <p> Figure 9: States with the Highest Employment Level in Computer and Mathematical Occupations.[BLS.gov].
+ </p>
+ </h4>
+<p>
+ In Figure 9, the states with the highest potential for employment in the fields of Computer Mathematical Occupations coincide with what was originally hypothesized, and correlates with the recent moves of many high-tech companies such as Tesla.  California ranks at number one, followed by Texas in second.  Newyork takes third, and Florida is ranked as number four.  Virgina, makes up the fifth spot.  Note the difference in pay, as Florida although number four, has the lowest average annual pay.  It is important to remmember the lower cost of living that factors into that.  
+</p>
