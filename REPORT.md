@@ -200,7 +200,7 @@ Santa Clara has a population of 130,000 and makes up a higher, upscale area with
 
 Mimai has a population of 467,963 and thus far has had 2,884 violent crimes and 17,654 property crimes per annual statistics.  As of 2021, there has been 155 cases of rape, 773 cases of robbery, and 1,913 cases of assualt.  According to NeighborhoodScout, "With a crime rate of 44 per one thousand residents, Miami has one of the highest crime rates in America compared to all communities of all sizes - from the smallest towns to the very largest cities. One's chance of becoming a victim of either violent or property crime here is one in 23. Within Florida, more than 90% of the communities have a lower crime rate than Miami."
 
-Conclusion from the crime data gathered, is that it would be best to live outside these metropolitan areas (cities) and live in a smaller, gated coommunity if possible.
+Conclusion from the crime data gathered, is that it would be best to live outside these metropolitan areas (cities) and live in a smaller, gated community if possible.
 
 <b>3.6 Neighborhood Clustering and Analysis using FourSquare API</b><p>
 </p> 
