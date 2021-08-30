@@ -202,8 +202,8 @@ Mimai has a population of 467,963 and thus far has had 2,884 violent crimes and 
 
 Conclusion from the crime data gathered, is that it would be best to live outside these metropolitan areas (cities) and live in a smaller, gated community if possible.
 
-<b>3.6 Neighborhood Clustering and Analysis using FourSquare API</b><p>
-</p> 
+<b>3.6 Neighborhood Clustering and Analysis using FourSquare API</b>
+ 
 When exploring what options are available near the city of Miami, Fl data was collected using the [FourSquare API](https://foursquare.com/) and compared with neighboring towns.  As noted earlier, Miami is not the safest city to live in, and while a commute there may cost more money.  There are plenty of safer towns around the Miami-Dade County area that each provide nice benefits similar to California.  Let's begin with a comparison of the two locations: Santa Clara, CA and Miami, FL.
 
   <h4 align="center" style="margin-top: 1em; margin-bottom: 3em;">
