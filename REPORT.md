@@ -232,10 +232,10 @@ As we can see here, there are a total of areas in the proximity set by the geoda
  
  Upon review of the data, there were 6 towns/cities in the Miami area, with 2,142 different venues, and 256 unique categories to explore.  Of the five clusters created from the data: <p>
 Cluster 1 contains mostly restaurants and convenience stores.  
-Cluster 2 is has gyms and other outdoor related activities.  
+Cluster 2 has gyms and other outdoor related activities.  
 Cluster 3 has a variety of fitness, outdoor, and city-life activities.  
 Cluster 4 has restaurants and small shops.  
-Cluster 5 has hotels, cafe's and beach realestate to explore.
+Cluster 5 has hotels, cafes and beach real-estate to explore.
 </p>
 
 <b>4.0 Conclusions </b>
